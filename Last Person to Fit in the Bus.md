@@ -1,12 +1,12 @@
 # SQL COMMAND
 
-select a.person_name
-from Queue a Join Queue b
-on a.turn>=b.turn
-group by a.turn
-having sum(b.weight)<=1000
-order by a.turn desc
-limit 1
+select a.person_name  ('<br>')
+from Queue a Join Queue b  ('<br>') 
+on a.turn>=b.turn  ('<br>')
+group by a.turn  ('<br>')
+having sum(b.weight)<=1000  ('<br>')
+order by a.turn desc  ('<br>')
+limit 1  ('<br>')
 
 
 # Explaination 
